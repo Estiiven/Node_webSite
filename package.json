@@ -1,0 +1,21 @@
+{
+  "name": "Node_webSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "node src",
+    "desarollo": "nodemon src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
