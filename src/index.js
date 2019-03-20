@@ -1,7 +1,7 @@
 // se ejecuta en consola
 console.log("test mesaggee");
 
-const express = require("express");
+const express = require("express"); 
 const app = express();
 //modulo de Node que recoconoce directorios para linux, windws o mac
 const path = require("path");//path trayectoria

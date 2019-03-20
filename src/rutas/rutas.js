@@ -7,7 +7,7 @@ const router = express.Router();
 //descripcion: cada vez que un user entre a la direccion "/", se manejara con una funcion(pet, res) para responder con un archivo .html
 router.get("/", (peticion, respuesta) => {
   //mostrar la variable title en pantalla con ejs
-  respuesta.render("index.html", { title: "Titulo de inicio"});
+  respuesta.render("index.html", { title: "Tituloo de inicio"});
 });
 
 router.get("/contacto", (peticion, respuesta) => {
